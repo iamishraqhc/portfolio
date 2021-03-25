@@ -18,4 +18,3 @@ function App() {
 
 export default App;
 
-// 41:30 Home component --to be continued!
