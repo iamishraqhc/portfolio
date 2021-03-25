@@ -12,3 +12,5 @@
 * Run `sanity install`
 * Run `sanity start`
 * Navigate to [localhost:3333](http://localhost:3333/) to view the Sanity Studio
+
+![Preview](preview.png?raw=true)
