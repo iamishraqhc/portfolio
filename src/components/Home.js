@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../image/barbados.jpg";
+// import image from "../image/barbados.jpg";
 import video from "../video/BlueOcean3.mp4"
 
 export default function Home() {
