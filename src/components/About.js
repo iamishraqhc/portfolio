@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client.js";
 import imageUrlBuilder from "@sanity/image-url";
-import mauritius from "../image/mauritius.jpg";
+import barbados from "../image/barbados.jpg";
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -28,7 +28,7 @@ export default function About() {
 
   return (
     <main className="relative">
-      <img src={mauritius} alt="Mauritius Island" className="absolute w-full" />
+      <img src={barbados} alt="Barbados Island" className="absolute w-full" />
       <div className="p-10 lg:pt-48 container mx-auto relative">
         <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20">
           <img

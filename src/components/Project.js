@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client.js";
+import barbados from "../image/barbados.jpg";
 
 export default function Project() {
   const [projectData, setProjectData] = useState(null);
@@ -22,10 +23,11 @@ export default function Project() {
   }, []);
 
   return (
-    <main className="bg-green-100 min-h-screen p-12">
-      <section className="container mx-auto">
+    <main className="bg-green-100 min-h-screen">
+      <img src={barbados} alt="Barbados Island" className="absolute w-full" />
+      <section className="container mx-auto relative">
         <h1 className="text-5xl flex justify-center cursive">My Projects</h1>
-        <h2 className="text-lg text-gray-600 flex justify-center mb-12">
+        <h2 className="text-lg flex justify-center mb-12">
           Welcome to my projects page!
         </h2>
         <section className="grid grid-cols-2 gap-8">
@@ -64,7 +66,7 @@ export default function Project() {
                     target="_blank"
                     className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl"
                   >
-                    View The Project{" "}
+                    Take a look{" "}
                     <span role="img" aria-label="right pointer">
                       👉
                     </span>
