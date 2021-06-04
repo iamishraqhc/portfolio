@@ -53,6 +53,13 @@ export default function NavBar() {
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
+            url="https://www.pinterest.de/codewithishraq/"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            style={{ height: 35, width: 35 }}
+          />
+          <SocialIcon
             url="https://github.com/iamishraqhc"
             className="mr-4"
             target="_blank"
