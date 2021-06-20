@@ -74,7 +74,7 @@ export default function NavBar() {
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
-            url="https://youtube.com/c/VentureTowardsSuccess"
+            url="https://youtube.com/channel/UCKGNx62l4qr1dgF1r-F46gg"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
