@@ -39,7 +39,28 @@ export default function NavBar() {
         </nav>
         <div className="inline-flex py-3 px-3 my-6">
           <SocialIcon
+            url="https://youtube.com/c/CodeWithIshraq"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            style={{ height: 35, width: 35 }}
+          />
+          <SocialIcon
             url="https://instagram.com/codewithishraq"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            style={{ height: 35, width: 35 }}
+          />
+          <SocialIcon
+            url="https://www.tiktok.com/@codewithishraq"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            style={{ height: 35, width: 35 }}
+          />
+          <SocialIcon
+            url="https://facebook.com/codewithishraq"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
@@ -68,13 +89,6 @@ export default function NavBar() {
           />
           <SocialIcon
             url="https://linkedin.com/in/iamishraqhc"
-            className="mr-4"
-            target="_blank"
-            fgColor="#fff"
-            style={{ height: 35, width: 35 }}
-          />
-          <SocialIcon
-            url="https://youtube.com/channel/UCKGNx62l4qr1dgF1r-F46gg"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
